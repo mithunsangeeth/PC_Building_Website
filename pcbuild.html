@@ -8,15 +8,17 @@
   <meta name="keywords" content="PC Build, Components, PC Builder, HTML">
   <meta name="author" content="Sangeeth">
   <title>PC Builder UI - PC Build</title>
+  <!-- Link to external CSS stylesheet -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <!-- Header with assignment details -->
-  <header>
-    <h1>Sangeeth | March 2, 2025 | HTML Website Assignment: PC Builder UI</h1>
+  <header class="site-header">
+    <h1 class="site-title">Sangeeth | March 2, 2025 | HTML Website Assignment: PC Builder UI</h1>
   </header>
 
   <!-- Navigation -->
-  <nav>
+  <nav class="main-nav">
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="pcbuild.html">PC Build</a></li>
@@ -26,20 +28,87 @@
   </nav>
 
   <!-- Main Content: PC Builder Section -->
-  <main>
+  <main class="main-content">
     <section>
       <h2>PC BUILDER</h2>
-      <p><strong>Cost:</strong> Parts Price</p>
-      <div>
-        <p>PC CPU | MB | CASE | CoOL’N | RAM | HDD | GPU | SSD | FANS | PSU</p>
-        <p>Select Components</p>
+      <!-- Flex container for table (left) and cost summary (right) -->
+      <div class="build-container">
+        <!-- Components Table -->
+        <div class="components-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Component</th>
+                <th>Selection</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>CPU</td>
+                <td>Select CPU</td>
+              </tr>
+              <tr>
+                <td>Motherboard (MB)</td>
+                <td>Select MB</td>
+              </tr>
+              <tr>
+                <td>Case</td>
+                <td>Select Case</td>
+              </tr>
+              <tr>
+                <td>Cooling</td>
+                <td>Select Cooling</td>
+              </tr>
+              <tr>
+                <td>RAM</td>
+                <td>Select RAM</td>
+              </tr>
+              <tr>
+                <td>HDD</td>
+                <td>Select HDD</td>
+              </tr>
+              <tr>
+                <td>GPU</td>
+                <td>Select GPU</td>
+              </tr>
+              <tr>
+                <td>SSD</td>
+                <td>Select SSD</td>
+              </tr>
+              <tr>
+                <td>Fans</td>
+                <td>Select Fans</td>
+              </tr>
+              <tr>
+                <td>PSU</td>
+                <td>Select PSU</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
+        <!-- Cost Summary Box -->
+        <div class="cost-box">
+          <h3>Cost Summary</h3>
+          <p><strong>Parts:</strong> $0.00</p>
+          <p><strong>Tax:</strong> $0.00</p>
+          <hr>
+          <p><strong>Total:</strong> $0.00</p>
+        </div>
       </div>
     </section>
   </main>
 
   <!-- Footer -->
-  <footer>
-    <p>Language | Copyright | Region</p>
+  <footer class="site-footer">
+    <p>
+      <a href="#">Language</a> |
+      <a href="#">Copyright</a> |
+      <a href="#">Region</a>
+    </p>
+    <p>
+      <a href="#">Contact</a>
+    </p>
   </footer>
 </body>
 </html>

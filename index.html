@@ -8,15 +8,17 @@
   <meta name="keywords" content="PC Builder, HTML, Figma UI, Static Website">
   <meta name="author" content="Sangeeth">
   <title>PC Builder UI - Home</title>
+  <!-- Link to external CSS stylesheet -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <!-- Header with assignment details -->
-  <header>
-    <h1>Sangeeth | March 2, 2025 | HTML Website Assignment: PC Builder UI</h1>
+  <header class="site-header">
+    <h1 class="site-title">Sangeeth | March 2, 2025 | HTML Website Assignment: PC Builder UI</h1>
   </header>
 
   <!-- Global Navigation -->
-  <nav>
+  <nav class="main-nav">
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="pcbuild.html">PC Build</a></li>
@@ -26,18 +28,28 @@
   </nav>
 
   <!-- Main Content: Welcome Section -->
-  <main>
+  <main class="main-content">
     <section>
       <h2>WELCOME TO YOUR PC BUILDER</h2>
       <p>SERVE YOU BEST</p>
-      <p><a href="pcbuild.html">Start Building</a></p>
+      <p>
+        <!-- Example button class for styling -->
+        <a href="pcbuild.html" class="btn">Start Building</a>
+      </p>
     </section>
   </main>
 
-  <!-- Footer with legal info -->
-  <footer>
-    <p>Language | Copyright | Region</p>
-    <p>Contact</p>
+  <footer class="site-footer">
+    <!-- Wrap each item in an anchor, or separate them as needed -->
+    <p>
+      <a href="#">Language</a> |
+      <a href="#">Copyright</a> |
+      <a href="#">Region</a>
+    </p>
+    <p>
+      <a href="#">Contact</a>
+    </p>
   </footer>
+  
 </body>
 </html>

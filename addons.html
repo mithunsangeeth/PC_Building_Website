@@ -8,15 +8,17 @@
   <meta name="keywords" content="Add-Ons, PC Builder, HTML">
   <meta name="author" content="Sangeeth">
   <title>PC Builder UI - Add-Ons</title>
+  <!-- Link to external CSS stylesheet -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <!-- Header with assignment details -->
-  <header>
-    <h1>Sangeeth | March 2, 2025 | HTML Website Assignment: PC Builder UI</h1>
+  <header class="site-header">
+    <h1 class="site-title">Sangeeth | March 2, 2025 | HTML Website Assignment: PC Builder UI</h1>
   </header>
 
   <!-- Navigation -->
-  <nav>
+  <nav class="main-nav">
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="pcbuild.html">PC Build</a></li>
@@ -26,16 +28,53 @@
   </nav>
 
   <!-- Main Content: Add-Ons Section -->
-  <main>
+  <main class="main-content">
     <section>
       <h2>ADD-ONS</h2>
-      <p>Content for Add-Ons will be available soon.</p>
+      <p>Enhance your PC experience with these add-ons:</p>
+      
+      <!-- Container for multiple add-on cards -->
+      <div class="addons-container">
+        <!-- ADD-ON #1 -->
+        <div class="addon-card">
+          <h3>Mechanical Keyboard</h3>
+          <p>RGB backlight, tactile switches</p>
+          <p class="addon-price">$79.99</p>
+        </div>
+
+        <!-- ADD-ON #2 -->
+        <div class="addon-card">
+          <h3>Gaming Mouse</h3>
+          <p>Adjustable DPI, ergonomic design</p>
+          <p class="addon-price">$49.99</p>
+        </div>
+
+        <!-- ADD-ON #3 -->
+        <div class="addon-card">
+          <h3>USB Pendrive</h3>
+          <p>64GB USB 3.0 for fast transfers</p>
+          <p class="addon-price">$14.99</p>
+        </div>
+
+        <!-- ADD-ON #4 -->
+        <div class="addon-card">
+          <h3>Headphones</h3>
+          <p>Noise-cancelling, over-ear design</p>
+          <p class="addon-price">$99.99</p>
+        </div>
+      </div>
     </section>
   </main>
 
-  <!-- Footer -->
-  <footer>
-    <p>Language | Copyright | Region</p>
+  <footer class="site-footer">
+    <p>
+      <a href="#">Language</a> |
+      <a href="#">Copyright</a> |
+      <a href="#">Region</a>
+    </p>
+    <p>
+      <a href="#">Contact</a>
+    </p>
   </footer>
 </body>
 </html>
