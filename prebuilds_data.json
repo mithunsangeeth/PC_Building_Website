@@ -1,0 +1,89 @@
+[
+    {
+      "ID": "office-01",
+      "Category": "Office",
+      "Name": "Essential Office PC",
+      "Highlight": "Reliable performance for everyday tasks and browsing.",
+      "Price": 499.99,
+      "ImagePlaceholderText": "Office PC",
+      "Specs": {
+        "CPU": "Intel Core i3-12100",
+        "GPU": "Integrated Intel UHD Graphics 730",
+        "RAM": "8GB DDR4 3200MHz",
+        "Storage": "256GB NVMe SSD",
+        "Motherboard": "Basic H610M Chipset",
+        "Case": "Compact Mid-Tower Black",
+        "PSU": "450W 80+ Bronze Certified"
+      }
+    },
+    {
+      "ID": "office-02",
+      "Category": "Office",
+      "Name": "Advanced Office Workstation",
+      "Highlight": "Smooth multitasking for demanding office applications.",
+      "Price": 649.99,
+      "ImagePlaceholderText": "Office PC+",
+      "Specs": {
+        "CPU": "AMD Ryzen 5 5600G",
+        "GPU": "Integrated Radeon Graphics",
+        "RAM": "16GB DDR4 3200MHz",
+        "Storage": "512GB NVMe SSD",
+        "Motherboard": "B550M Chipset",
+        "Case": "Sleek Mid-Tower Silver",
+        "PSU": "500W 80+ Bronze Certified"
+      }
+    },
+    {
+      "ID": "gaming-01",
+      "Category": "Gaming",
+      "Name": "Entry-Level Gamer",
+      "Highlight": "Solid 1080p gaming on popular titles.",
+      "Price": 799.99,
+      "ImagePlaceholderText": "Gaming PC",
+      "Specs": {
+        "CPU": "Intel Core i5-12400F",
+        "GPU": "NVIDIA GeForce RTX 3050 8GB",
+        "RAM": "16GB DDR4 3200MHz",
+        "Storage": "512GB NVMe SSD",
+        "Motherboard": "B660M Chipset",
+        "Case": "Mid-Tower ATX with RGB Fan",
+        "PSU": "600W 80+ Bronze Certified"
+      }
+    },
+    {
+      "ID": "gaming-02",
+      "Category": "Gaming",
+      "Name": "Mid-Range Powerhouse",
+      "Highlight": "Excellent 1080p/1440p gaming performance.",
+      "Price": 1199.99,
+      "ImagePlaceholderText": "Gaming PC+",
+      "Specs": {
+        "CPU": "AMD Ryzen 5 5600X",
+        "GPU": "NVIDIA GeForce RTX 3060 Ti 8GB",
+        "RAM": "16GB DDR4 3600MHz",
+        "Storage": "1TB NVMe SSD",
+        "Motherboard": "B550 Chipset ATX",
+        "Case": "Mid-Tower ATX Tempered Glass",
+        "PSU": "650W 80+ Gold Certified"
+      }
+    },
+     {
+      "ID": "gaming-03",
+      "Category": "Gaming",
+      "Name": "High-End Dominator",
+      "Highlight": "Top-tier 1440p/4K gaming experience.",
+      "Price": 1899.99,
+      "ImagePlaceholderText": "Gaming PC++",
+      "Specs": {
+        "CPU": "Intel Core i7-13700K",
+        "GPU": "NVIDIA GeForce RTX 4070 12GB",
+        "RAM": "32GB DDR5 5600MHz",
+        "Storage": "2TB NVMe Gen4 SSD",
+        "Motherboard": "Z790 Chipset ATX",
+        "Case": "Full-Tower ATX High Airflow",
+        "PSU": "850W 80+ Gold Certified",
+        "Cooling": "240mm AIO Liquid Cooler"
+      }
+    }
+  ]
+  

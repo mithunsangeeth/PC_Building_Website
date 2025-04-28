@@ -1,0 +1,21 @@
+[
+    {
+      "ID": "ram-16gb-ddr4-3200",
+      "Name": "16GB (2x8GB) DDR4 3200MHz",
+      "Details": "CL16 Latency",
+      "Price": 54.99
+    },
+    {
+      "ID": "ram-32gb-ddr4-3600",
+      "Name": "32GB (2x16GB) DDR4 3600MHz",
+      "Details": "CL18 Latency",
+      "Price": 99.99
+    },
+    {
+      "ID": "ram-32gb-ddr5-5600",
+      "Name": "32GB (2x16GB) DDR5 5600MHz",
+      "Details": "CL36 Latency",
+      "Price": 129.99
+    }
+  ]
+  

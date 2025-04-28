@@ -1,0 +1,75 @@
+[
+    {
+      "ID": "addon-kb-01",
+      "Category": "Peripherals",
+      "Name": "Mechanical Keyboard",
+      "Description": "RGB backlight, tactile blue switches for responsive typing and gaming.",
+      "Price": 79.99,
+      "ImagePlaceholderText": "Keyboard"
+    },
+    {
+      "ID": "addon-mouse-01",
+      "Category": "Peripherals",
+      "Name": "Gaming Mouse",
+      "Description": "Adjustable DPI (up to 12000), ergonomic design, 6 programmable buttons.",
+      "Price": 49.99,
+      "ImagePlaceholderText": "Mouse"
+    },
+    {
+      "ID": "addon-usb-01",
+      "Category": "Storage",
+      "Name": "USB Pendrive 64GB",
+      "Description": "USB 3.1 for fast data transfers, compact metal design.",
+      "Price": 14.99,
+      "ImagePlaceholderText": "Storage"
+    },
+    {
+      "ID": "addon-usb-02",
+      "Category": "Storage",
+      "Name": "USB Pendrive 128GB",
+      "Description": "USB 3.2 for fast data transfers, compact metal design.",
+      "Price": 15.99,
+      "ImagePlaceholderText": "Storage"
+    },
+    {
+      "ID": "addon-ssd-01",
+      "Category": "Storage",
+      "Name": "External SSD 1TB",
+      "Description": "Portable Solid State Drive, USB-C, high-speed performance.",
+      "Price": 89.99,
+      "ImagePlaceholderText": "Storage"
+    },
+    {
+      "ID": "addon-headset-01",
+      "Category": "Audio",
+      "Name": "Gaming Headset",
+      "Description": "Noise-cancelling microphone, 7.1 surround sound, comfortable over-ear design.",
+      "Price": 99.99,
+      "ImagePlaceholderText": "Audio"
+    },
+    {
+      "ID": "addon-webcam-01",
+      "Category": "Peripherals",
+      "Name": "1080p Webcam",
+      "Description": "Full HD webcam with built-in microphone, USB plug-and-play.",
+      "Price": 39.99,
+      "ImagePlaceholderText": "Webcam"
+    },
+    {
+      "ID": "addon-mic-01",
+      "Category": "Audio",
+      "Name": "USB Microphone 1",
+      "Description": "Condenser microphone for streaming and recording, includes tripod.",
+      "Price": 59.99,
+      "ImagePlaceholderText": "Audio"
+    },
+    {
+      "ID": "addon-mic-02",
+      "Category": "Audio",
+      "Name": "USB Microphone 2",
+      "Description": "Condenser microphone for streaming and recording, includes tripod.",
+      "Price": 58.99,
+      "ImagePlaceholderText": "Audio"
+    }
+  ]
+  

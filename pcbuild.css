@@ -1,0 +1,59 @@
+/* =======================================================================
+   PC Build Page Styles (pcbuild.css)
+   Apply these styles specifically to pcbuild.html.
+   ======================================================================= */
+
+   .pc-builder-section h2 { text-align: center; margin-bottom: 10px; }
+   .pc-builder-section > p { text-align: center; margin-bottom: 30px; color: #555; }
+   .build-container { display: flex; justify-content: center; flex-wrap: wrap; }
+   
+   /* Components Table Styling */
+   .components-table { flex: 1 1 800px; max-width: 950px; min-width: 400px; overflow-x: auto; }
+   .components-table table { width: 100%; border-collapse: collapse; background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.08); border-radius: 6px; overflow: hidden; }
+   .components-table th, .components-table td { padding: 12px 15px; border-bottom: 1px solid #eee; vertical-align: middle; text-align: left; }
+   .components-table th { background-color: #f8f9fa; font-weight: 600; color: #444; }
+   
+   /* Column Widths */
+   .components-table th:nth-child(1), .components-table td:nth-child(1) { width: 140px; font-weight: 500; } /* Component */
+   .components-table th:nth-child(3), .components-table td:nth-child(3) { width: 90px; text-align: right; font-weight: 600; } /* Price */
+   .components-table th:nth-child(4), .components-table td:nth-child(4) { width: 60px; text-align: center; } /* Add Button */
+   
+   /* Selection Cell */
+   .selection-cell { /* Takes remaining space */ }
+   .component-select { width: 100%; padding: 8px 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 0.95em; background-color: #fff; cursor: pointer; transition: border-color 0.3s ease; margin-bottom: 5px; }
+   .component-select:focus { border-color: #3498db; outline: none; box-shadow: 0 0 4px rgba(52, 152, 219, 0.3); }
+   .component-select option[value=""] { color: #888; font-style: italic; }
+   .selected-details { font-size: 0.85em; color: #666; margin-top: 5px; line-height: 1.4; min-height: 1.4em; }
+   
+   /* Price Cell */
+   .price-cell { color: #27ae60; }
+   
+   /* Add Component Cell & Button */
+   .add-cell {
+       text-align: center;
+   }
+   .btn-add-component {
+       /* Inherits .btn styles */
+       padding: 5px 10px; /* Smaller padding */
+       font-size: 1.1em; /* Adjust size of '+' */
+       line-height: 1;
+       min-width: 30px; /* Ensure minimum size */
+       font-weight: bold;
+   }
+   .btn-add-component:disabled {
+       background-color: #bdc3c7;
+       cursor: not-allowed;
+       transform: none;
+       opacity: 0.6;
+   }
+   
+   
+   /* Responsive Adjustments */
+   @media (max-width: 600px) { /* Adjust breakpoint */
+       .components-table th, .components-table td { padding: 10px 8px; font-size: 0.9em; }
+       .components-table th:nth-child(1), .components-table td:nth-child(1) { width: 100px; } /* Component */
+       .components-table th:nth-child(3), .components-table td:nth-child(3) { width: 70px; } /* Price */
+       .components-table th:nth-child(4), .components-table td:nth-child(4) { width: 50px; } /* Add Button */
+       .btn-add-component { padding: 4px 8px; font-size: 1em; }
+   }
+   
