@@ -1,0 +1,234 @@
+[
+  {
+    "ID": "addon-kb-01",
+    "Category": "Peripherals",
+    "Name": "Keychron K6 Wireless Mechanical Keyboard",
+    "Description": "RGB backlight, hot-swappable tactile Gateron Blue switches, Bluetooth and USB-C wired modes.",
+    "Price": 89.99,
+    "ImagePlaceholderText": "Keyboard"
+  },
+  {
+    "ID": "addon-kb-02",
+    "Category": "Peripherals",
+    "Name": "Corsair K70 RGB Pro Mechanical Keyboard",
+    "Description": "RGB backlight, Cherry MX Red switches, aluminum frame, wired USB connection.",
+    "Price": 119.99,
+    "ImagePlaceholderText": "Keyboard"
+  },
+  {
+    "ID": "addon-mouse-01",
+    "Category": "Peripherals",
+    "Name": "Logitech G502 Hero Gaming Mouse",
+    "Description": "Adjustable DPI up to 25,600, 11 programmable buttons, weight tuning system.",
+    "Price": 59.99,
+    "ImagePlaceholderText": "Mouse"
+  },
+  {
+    "ID": "addon-mouse-02",
+    "Category": "Peripherals",
+    "Name": "Razer Viper Mini Gaming Mouse",
+    "Description": "Ultralight 61g design, 8500 DPI optical sensor, Razer Chroma RGB.",
+    "Price": 39.99,
+    "ImagePlaceholderText": "Mouse"
+  },
+  {
+    "ID": "addon-mousepad-01",
+    "Category": "Peripherals",
+    "Name": "SteelSeries QcK Gaming Mousepad",
+    "Description": "Smooth cloth surface, non-slip rubber base, optimized for all sensors.",
+    "Price": 14.99,
+    "ImagePlaceholderText": "Mousepad"
+  },
+  {
+    "ID": "addon-usb-01",
+    "Category": "Storage",
+    "Name": "SanDisk Ultra 64GB USB 3.0 Flash Drive",
+    "Description": "Fast file transfers up to 130MB/s, retractable design.",
+    "Price": 14.99,
+    "ImagePlaceholderText": "Storage"
+  },
+  {
+    "ID": "addon-usb-02",
+    "Category": "Storage",
+    "Name": "Samsung BAR Plus 128GB USB 3.1 Flash Drive",
+    "Description": "Metal casing, up to 300MB/s transfer speeds, water and shock resistant.",
+    "Price": 18.99,
+    "ImagePlaceholderText": "Storage"
+  },
+  {
+    "ID": "addon-usb-03",
+    "Category": "Storage",
+    "Name": "Kingston DataTraveler Kyson 256GB USB 3.2 Flash Drive",
+    "Description": "Ultra-fast speeds up to 200MB/s read, durable metal casing.",
+    "Price": 29.99,
+    "ImagePlaceholderText": "Storage"
+  },
+  {
+    "ID": "addon-ssd-01",
+    "Category": "Storage",
+    "Name": "Samsung T7 Portable SSD 1TB",
+    "Description": "USB 3.2 Gen2, up to 1050MB/s read speeds, compact and shock-resistant design.",
+    "Price": 99.99,
+    "ImagePlaceholderText": "Storage"
+  },
+  {
+    "ID": "addon-ssd-02",
+    "Category": "Storage",
+    "Name": "Crucial X8 2TB Portable SSD",
+    "Description": "USB-C connectivity, up to 1050MB/s read speeds, durable and stylish.",
+    "Price": 159.99,
+    "ImagePlaceholderText": "Storage"
+  },
+  {
+    "ID": "addon-hdd-01",
+    "Category": "Storage",
+    "Name": "Seagate Expansion 4TB External HDD",
+    "Description": "USB 3.0 connectivity, plug-and-play for Windows and Mac.",
+    "Price": 89.99,
+    "ImagePlaceholderText": "Storage"
+  },
+  {
+    "ID": "addon-headset-01",
+    "Category": "Audio",
+    "Name": "HyperX Cloud II Gaming Headset",
+    "Description": "7.1 Virtual Surround Sound, memory foam ear cushions, detachable noise-canceling mic.",
+    "Price": 99.99,
+    "ImagePlaceholderText": "Audio"
+  },
+  {
+    "ID": "addon-headset-02",
+    "Category": "Audio",
+    "Name": "SteelSeries Arctis 5 Wired RGB Gaming Headset",
+    "Description": "DTS Headphone:X v2.0 surround sound, adjustable RGB lighting, USB and 3.5mm options.",
+    "Price": 89.99,
+    "ImagePlaceholderText": "Audio"
+  },
+  {
+    "ID": "addon-speaker-01",
+    "Category": "Audio",
+    "Name": "Creative Pebble V3 Desktop Speakers",
+    "Description": "USB-C powered speakers with Bluetooth 5.0 and 2.25\" drivers.",
+    "Price": 39.99,
+    "ImagePlaceholderText": "Audio"
+  },
+  {
+    "ID": "addon-speaker-02",
+    "Category": "Audio",
+    "Name": "Logitech Z407 Bluetooth Speakers with Subwoofer",
+    "Description": "80W peak power, wireless control dial, dual-position satellites.",
+    "Price": 99.99,
+    "ImagePlaceholderText": "Audio"
+  },
+  {
+    "ID": "addon-webcam-01",
+    "Category": "Peripherals",
+    "Name": "Logitech C920S Pro 1080p Webcam",
+    "Description": "Full HD 1080p video, stereo audio, privacy shutter included.",
+    "Price": 69.99,
+    "ImagePlaceholderText": "Webcam"
+  },
+  {
+    "ID": "addon-webcam-02",
+    "Category": "Peripherals",
+    "Name": "Razer Kiyo Pro Streaming Webcam",
+    "Description": "1080p 60FPS, adaptive light sensor, HDR support, wide-angle lens.",
+    "Price": 129.99,
+    "ImagePlaceholderText": "Webcam"
+  },
+  {
+    "ID": "addon-mic-01",
+    "Category": "Audio",
+    "Name": "Blue Yeti USB Microphone",
+    "Description": "4 pickup patterns, plug-and-play, perfect for streaming, podcasting, and voiceovers.",
+    "Price": 109.99,
+    "ImagePlaceholderText": "Audio"
+  },
+  {
+    "ID": "addon-mic-02",
+    "Category": "Audio",
+    "Name": "HyperX SoloCast USB Microphone",
+    "Description": "Plug and play, tap-to-mute sensor, cardioid pickup pattern.",
+    "Price": 59.99,
+    "ImagePlaceholderText": "Audio"
+  },
+  {
+    "ID": "addon-mic-03",
+    "Category": "Audio",
+    "Name": "Elgato Wave:3 USB Microphone",
+    "Description": "Broadcast-grade audio, Wave Link mixing software included, tap-to-mute feature.",
+    "Price": 129.99,
+    "ImagePlaceholderText": "Audio"
+  },
+  {
+    "ID": "addon-streamdeck-01",
+    "Category": "Streaming",
+    "Name": "Elgato Stream Deck Mini",
+    "Description": "6 customizable LCD keys for quick actions in streaming and content creation.",
+    "Price": 79.99,
+    "ImagePlaceholderText": "Streaming"
+  },
+  {
+    "ID": "addon-streamdeck-02",
+    "Category": "Streaming",
+    "Name": "Elgato Stream Deck XL",
+    "Description": "32 customizable LCD keys, control over OBS, Twitch, YouTube and more.",
+    "Price": 249.99,
+    "ImagePlaceholderText": "Streaming"
+  },
+  {
+    "ID": "addon-capture-01",
+    "Category": "Streaming",
+    "Name": "Elgato HD60 X Capture Card",
+    "Description": "4K60 HDR10 capture, VRR passthrough support, USB 3.0, compatible with PC and consoles.",
+    "Price": 199.99,
+    "ImagePlaceholderText": "Streaming"
+  },
+  {
+    "ID": "addon-chair-01",
+    "Category": "Furniture",
+    "Name": "RESPAWN 110 Racing Style Gaming Chair",
+    "Description": "Ergonomic design, adjustable footrest, 155-degree recline, bonded leather.",
+    "Price": 169.99,
+    "ImagePlaceholderText": "Chair"
+  },
+  {
+    "ID": "addon-chair-02",
+    "Category": "Furniture",
+    "Name": "Herman Miller x Logitech G Embody Gaming Chair",
+    "Description": "Best-in-class ergonomic design, ideal for long gaming sessions.",
+    "Price": 1495.00,
+    "ImagePlaceholderText": "Chair"
+  },
+  {
+    "ID": "addon-hub-01",
+    "Category": "Peripherals",
+    "Name": "Anker 7-in-1 USB-C Hub",
+    "Description": "HDMI, 2 USB-A, SD/TF card reader, USB-C PD charging.",
+    "Price": 49.99,
+    "ImagePlaceholderText": "Hub"
+  },
+  {
+    "ID": "addon-cable-01",
+    "Category": "Peripherals",
+    "Name": "CableMod Pro ModMesh Cable Kit",
+    "Description": "Premium sleeved cables for modular PSUs, various colors available.",
+    "Price": 99.99,
+    "ImagePlaceholderText": "Cables"
+  },
+  {
+    "ID": "addon-light-01",
+    "Category": "Lighting",
+    "Name": "NZXT HUE 2 Ambient RGB Lighting Kit",
+    "Description": "Ambient lighting for PC setups, addressable RGB strips, software controlled.",
+    "Price": 79.99,
+    "ImagePlaceholderText": "Lighting"
+  },
+  {
+    "ID": "addon-stand-01",
+    "Category": "Peripherals",
+    "Name": "Razer Base Station V2 Chroma Headset Stand",
+    "Description": "USB hub integrated, RGB lighting, sturdy non-slip base.",
+    "Price": 69.99,
+    "ImagePlaceholderText": "Headset Stand"
+  }
+]

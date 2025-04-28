@@ -1,0 +1,32 @@
+[
+  {
+    "ID": "gpu-rtx-4060",
+    "Name": "NVIDIA GeForce RTX 4060",
+    "Details": "8GB GDDR6, 3072 CUDA Cores, Boost Clock: 2460 MHz, PCIe 4.0, DLSS 3 Support",
+    "Price": 299.99
+  },
+  {
+    "ID": "gpu-rtx-4070",
+    "Name": "NVIDIA GeForce RTX 4070",
+    "Details": "12GB GDDR6X, 5888 CUDA Cores, Boost Clock: 2475 MHz, PCIe 4.0, DLSS 3, Ray Tracing",
+    "Price": 549.99
+  },
+  {
+    "ID": "gpu-rx-7800xt",
+    "Name": "AMD Radeon RX 7800 XT",
+    "Details": "16GB GDDR6, 3840 Stream Processors, Boost Clock: 2430 MHz, PCIe 4.0, FSR 3 Support",
+    "Price": 499.99
+  },
+  {
+    "ID": "gpu-rx-6600",
+    "Name": "AMD Radeon RX 6600",
+    "Details": "8GB GDDR6, 1792 Stream Processors, Boost Clock: 2491 MHz, PCIe 4.0, FSR Support",
+    "Price": 199.99
+  },
+  {
+    "ID": "gpu-rtx-4090",
+    "Name": "NVIDIA GeForce RTX 4090",
+    "Details": "24GB GDDR6X, 16384 CUDA Cores, Boost Clock: 2520 MHz, PCIe 4.0, DLSS 3, Ray Tracing Beast",
+    "Price": 1599.99
+  }
+]

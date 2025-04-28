@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore pre-configured Office and Gaming PC builds from PC Forge.">
+    <meta name="keywords" content="Pre-Built PC, Gaming PC, Office PC, Computer Builds, PC Forge">
+    <meta name="author" content="Vedant Khandelwal">
+    <title>PC Forge - Pre-Built PCs</title>
+
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="prebuild.css">
+    </head>
+<body>
+  <header class="site-header">
+    <h1 class="site-title">PC Forge</h1>
+    <div class="header-right">
+        <div id="header-cart-total-display" class="header-cart-total-display" style="display: none;"> <span class="label">Cart:</span> <span id="header-cart-total">$0.00</span> </div>
+        <a href="cart.html" class="cart-icon" title="View your shopping cart">
+            🛒 <span class="cart-count">0</span>
+        </a>
+    </div>
+</header>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pcbuild.html">PC Build</a></li>
+            <li><a href="prebuild.html">Pre-Build</a></li> <li><a href="addons.html">Add-Ons</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <section class="prebuild-section">
+            <h2>Pre-Built Systems</h2>
+            <p>Choose a category to explore expertly configured PCs.</p>
+
+            <div class="category-selector">
+                <button class="category-button active" data-category="Gaming">Gaming Builds</button>
+                <button class="category-button" data-category="Office">Office Builds</button>
+            </div>
+
+            <div id="dynamic-builds-container">
+                <p class="loading-message">Loading builds...</p>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="site-footer">
+         <p>
+            <span title="Current language setting">Language: English</span> |
+            <span title="Copyright information for PC Forge">Copyright © 2025 PC Forge. All rights reserved.</span> |
+            <span title="Your current region">Region: United States</span>
+        </p>
+        <p>
+            <a href="contact.html" title="Get in touch with us">Contact Us</a>
+        </p>
+    </footer>
+
+    <script src="cart-logic.js"></script>
+    <script src="prebuild.js"></script>
+
+</body>
+</html>

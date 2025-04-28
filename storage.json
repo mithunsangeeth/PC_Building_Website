@@ -1,0 +1,32 @@
+[
+  {
+    "ID": "storage-ssd-1tb-nvme",
+    "Name": "1TB NVMe M.2 SSD",
+    "Details": "PCIe 4.0, Read Speed: 5000MB/s, Write Speed: 4400MB/s, DRAM Cache, 5-Year Warranty",
+    "Price": 79.99
+  },
+  {
+    "ID": "storage-ssd-2tb-nvme",
+    "Name": "2TB NVMe M.2 SSD",
+    "Details": "PCIe 4.0, Read Speed: 7000MB/s, Write Speed: 5000MB/s, DRAM Cache, 5-Year Warranty",
+    "Price": 129.99
+  },
+  {
+    "ID": "storage-ssd-1tb-sata",
+    "Name": "1TB SATA SSD",
+    "Details": "SATA III, Read Speed: 550MB/s, Write Speed: 500MB/s, 2.5-inch Form Factor, Budget-Friendly",
+    "Price": 49.99
+  },
+  {
+    "ID": "storage-hdd-2tb",
+    "Name": "2TB 7200RPM HDD",
+    "Details": "3.5-inch Form Factor, 7200 RPM, 256MB Cache, SATA III, Best for Bulk Storage",
+    "Price": 59.99
+  },
+  {
+    "ID": "storage-ssd-4tb-nvme",
+    "Name": "4TB NVMe M.2 SSD",
+    "Details": "PCIe 4.0, Read Speed: 7000MB/s, Write Speed: 6000MB/s, High Capacity, 5-Year Warranty",
+    "Price": 359.99
+  }
+]

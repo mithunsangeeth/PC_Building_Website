@@ -1,0 +1,26 @@
+[
+  {
+    "ID": "cooling-air-cooler",
+    "Name": "120mm Tower Air Cooler",
+    "Details": "Single 120mm Fan, 4 Heatpipes, Height: 155mm, Universal Socket Support (Intel/AMD)",
+    "Price": 39.99
+  },
+  {
+    "ID": "cooling-air-cooler-dual",
+    "Name": "Dual Tower Air Cooler",
+    "Details": "Dual 120mm Fans, 6 Heatpipes, Excellent Airflow, Height: 160mm, Ideal for Overclocking",
+    "Price": 69.99
+  },
+  {
+    "ID": "cooling-aio-240",
+    "Name": "240mm AIO Liquid Cooler",
+    "Details": "240mm Radiator, Dual 120mm RGB Fans, ARGB Support, Intel/AMD Compatible",
+    "Price": 99.99
+  },
+  {
+    "ID": "cooling-aio-360",
+    "Name": "360mm AIO Liquid Cooler",
+    "Details": "360mm Radiator, Triple 120mm Fans, High Cooling Performance, RGB Lighting",
+    "Price": 139.99
+  }
+]

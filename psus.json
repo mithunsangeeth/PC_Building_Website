@@ -1,0 +1,26 @@
+[
+  {
+    "ID": "psu-650w-gold",
+    "Name": "650W 80+ Gold PSU",
+    "Details": "Fully Modular, 80+ Gold Efficiency, Japanese Capacitors, 10-Year Warranty",
+    "Price": 89.99
+  },
+  {
+    "ID": "psu-750w-gold",
+    "Name": "750W 80+ Gold PSU",
+    "Details": "Fully Modular, 80+ Gold Efficiency, PCIe 5.0 Ready, 10-Year Warranty",
+    "Price": 109.99
+  },
+  {
+    "ID": "psu-850w-platinum",
+    "Name": "850W 80+ Platinum PSU",
+    "Details": "Fully Modular, 80+ Platinum Efficiency, Silent Fan Mode, 10-Year Warranty",
+    "Price": 149.99
+  },
+  {
+    "ID": "psu-1000w-gold",
+    "Name": "1000W 80+ Gold PSU",
+    "Details": "Fully Modular, 80+ Gold Efficiency, ATX 3.0, PCIe 5.0 Cable Included",
+    "Price": 179.99
+  }
+]

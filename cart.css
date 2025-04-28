@@ -1,0 +1,153 @@
+/* =======================================================================
+   Cart Page Styles (cart.css) - Updated for Part List Viewer
+   Apply these styles specifically to cart.html.
+   ======================================================================= */
+
+   .cart-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Container for table */
+.cart-container {
+    /* No longer needs flex as summary is removed */
+    margin-bottom: 30px; /* Space before action buttons */
+}
+
+/* Cart Items Table Styling */
+.cart-items {
+    width: 100%; /* Table takes full width */
+    overflow-x: auto;
+}
+
+.cart-items table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    border-radius: 6px; /* Optional: Add border radius */
+    overflow: hidden; /* Needed if using border-radius */
+}
+
+.cart-items th,
+.cart-items td {
+    padding: 15px 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+}
+
+.cart-items th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    color: #555;
+}
+
+/* Specific column styling */
+.cart-items th:nth-child(3), /* Price */
+.cart-items td:nth-child(3),
+.cart-items th:nth-child(5), /* Total */
+.cart-items td:nth-child(5) {
+    text-align: right;
+    width: 100px; /* Fixed width */
+}
+
+.cart-items th:nth-child(4), /* Quantity */
+.cart-items td:nth-child(4) {
+    text-align: center;
+    width: 100px; /* Fixed width */
+}
+.cart-items th:last-child, /* Remove button column */
+.cart-items td:last-child {
+    text-align: center;
+    width: 50px;
+}
+
+
+/* Cart Item Row Styling */
+.cart-item td { /* Styles for individual cells */ }
+.item-image img { max-width: 60px; height: auto; border-radius: 4px; display: block; }
+.item-details { line-height: 1.4; }
+.item-name { font-weight: 600; color: #333; margin-bottom: 3px; }
+.item-details small { font-size: 0.8em; color: #888; }
+.item-price, .item-total { font-weight: 500; }
+
+/* Quantity Input */
+.quantity-input { width: 50px; padding: 5px 8px; text-align: center; border: 1px solid #ccc; border-radius: 4px; font-size: 0.95em; }
+.quantity-input::-webkit-outer-spin-button, .quantity-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.quantity-input[type=number] { -moz-appearance: textfield; }
+
+/* Remove Button */
+.btn-remove { background: none; border: none; color: #e74c3c; font-size: 1.5em; cursor: pointer; padding: 0 5px; line-height: 1; transition: color 0.3s ease; }
+.btn-remove:hover { color: #c0392b; }
+
+/* Empty Cart Message */
+.empty-cart-message { text-align: center; padding: 40px 20px; font-style: italic; color: #777; background-color: #fdfdfd; }
+#empty-cart-row td { border-bottom: none; }
+
+
+/* Cart Summary Box Styles REMOVED */
+
+
+/* NEW: Action Buttons Container */
+.cart-actions {
+    display: flex;
+    justify-content: center; /* Center buttons */
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+    gap: 15px; /* Space between buttons */
+    padding: 20px 0; /* Padding around buttons */
+    border-top: 1px solid #eee; /* Optional separator */
+    margin-top: 20px;
+}
+
+/* Styling for specific action buttons */
+.cart-actions .btn {
+    /* Inherits base .btn styles */
+    min-width: 150px; /* Give buttons some minimum width */
+    text-align: center;
+}
+
+/* Danger button style for Clear List */
+.btn-danger {
+    background-color: #e74c3c; /* Red background */
+    color: #fff;
+    border: 1px solid #e74c3c;
+}
+.btn-danger:hover {
+    background-color: #c0392b; /* Darker red */
+    border-color: #c0392b;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* Secondary button style (already exists in global.css) */
+/* .btn-secondary { ... } */
+
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+    .cart-items th,
+    .cart-items td { padding: 10px 8px; font-size: 0.9em; }
+    .item-image img { max-width: 45px; }
+    .item-name { font-size: 0.95em; }
+    .cart-items th:nth-child(3), .cart-items td:nth-child(3), /* Price */
+    .cart-items th:nth-child(5), .cart-items td:nth-child(5) { /* Total */
+        width: 80px;
+    }
+    .cart-items th:nth-child(4), .cart-items td:nth-child(4) { /* Quantity */
+        width: 60px;
+    }
+    .quantity-input { width: 40px; padding: 4px 6px; }
+    .btn-remove { font-size: 1.3em; }
+
+    .cart-actions {
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: center;
+    }
+    .cart-actions .btn {
+        width: 80%; /* Make buttons wider */
+        max-width: 300px;
+    }
+}

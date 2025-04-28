@@ -1,0 +1,38 @@
+[
+  {
+    "ID": "ram-16gb-ddr4-3200",
+    "Name": "16GB (2x8GB) DDR4 3200MHz",
+    "Details": "Type: DDR4, Speed: 3200MHz, CAS Latency: CL16, Voltage: 1.35V, Dual-Channel Kit, Suitable for Intel and AMD platforms",
+    "Price": 54.99
+  },
+  {
+    "ID": "ram-32gb-ddr4-3600",
+    "Name": "32GB (2x16GB) DDR4 3600MHz",
+    "Details": "Type: DDR4, Speed: 3600MHz, CAS Latency: CL18, Voltage: 1.35V, Dual-Channel Kit, Optimized for AMD Ryzen and Intel 10th/11th Gen CPUs",
+    "Price": 99.99
+  },
+  {
+    "ID": "ram-32gb-ddr5-5600",
+    "Name": "32GB (2x16GB) DDR5 5600MHz",
+    "Details": "Type: DDR5, Speed: 5600MHz, CAS Latency: CL36, Voltage: 1.25V, Dual-Channel Kit, Intel 12th/13th Gen and AMD Ryzen 7000 Series Compatible",
+    "Price": 129.99
+  },
+  {
+    "ID": "ram-16gb-ddr5-6000",
+    "Name": "16GB (2x8GB) DDR5 6000MHz",
+    "Details": "Type: DDR5, Speed: 6000MHz, CAS Latency: CL32, Voltage: 1.25V, Dual-Channel Kit, XMP 3.0 Ready, Ideal for Intel 13th Gen and Ryzen 7000",
+    "Price": 109.99
+  },
+  {
+    "ID": "ram-64gb-ddr5-6000",
+    "Name": "64GB (2x32GB) DDR5 6000MHz",
+    "Details": "Type: DDR5, Speed: 6000MHz, CAS Latency: CL36, Voltage: 1.35V, Dual-Channel Kit, High-Capacity for Content Creation and Workstations",
+    "Price": 239.99
+  },
+  {
+    "ID": "ram-32gb-ddr4-3200",
+    "Name": "32GB (2x16GB) DDR4 3200MHz",
+    "Details": "Type: DDR4, Speed: 3200MHz, CAS Latency: CL16, Voltage: 1.35V, Dual-Channel Kit, Best for Gaming and Multitasking on Budget Builds",
+    "Price": 74.99
+  }
+]

@@ -1,0 +1,223 @@
+/* =======================================================================
+   Pre-Build Page Styles (prebuild.css)
+   Apply these styles specifically to prebuild.html.
+   ======================================================================= */
+
+/* Style the main prebuild section */
+.prebuild-section h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.prebuild-section > p { /* Target the introductory paragraph */
+  text-align: center;
+  margin-bottom: 30px;
+  color: #555;
+  font-size: 1.1em;
+}
+
+/* Category Selector Buttons Container */
+.category-selector {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 40px; /* More space below category buttons */
+}
+
+/* Individual Category Button Styling (Similar to addons.css) */
+.category-button {
+  padding: 10px 25px;
+  font-size: 1em;
+  font-weight: 600;
+  color: #8e44ad; /* Purple theme color */
+  background-color: #fff;
+  border: 2px solid #8e44ad;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.category-button:hover {
+  background-color: #f5f5f5; /* Light grey hover */
+  transform: translateY(-2px);
+}
+
+/* Active Category Button Styling */
+.category-button.active {
+  background-color: #8e44ad; /* Purple background */
+  color: #fff;
+  border-color: #8e44ad;
+}
+
+/* Container where dynamic build cards are loaded */
+#dynamic-builds-container {
+  min-height: 200px; /* Prevent collapse while loading/empty */
+}
+
+/* Optional: Styles for loading/empty messages */
+.loading-message,
+.no-items-message {
+  text-align: center;
+  padding: 30px;
+  font-style: italic;
+  color: #777;
+}
+
+/* Pre-Build Card Styling */
+.build-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  border: 1px solid #e0e0e0;
+  margin-bottom: 30px; /* Space between cards */
+  overflow: hidden; /* Clip content */
+  transition: box-shadow 0.3s ease;
+}
+
+.build-card:hover {
+   box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+}
+
+/* Header section of the card */
+.build-card-header {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping on small screens */
+  gap: 15px;
+  padding: 20px;
+  align-items: center; /* Vertically align image and info */
+  background-color: #fafafa; /* Slightly off-white header */
+  border-bottom: 1px solid #eee;
+}
+
+.build-image {
+  flex-shrink: 0; /* Prevent image from shrinking */
+  width: 120px;
+  height: 100px;
+  object-fit: contain; /* Show the whole placeholder text */
+  border-radius: 4px;
+  background-color: #e0e0e0; /* Background for placeholder */
+}
+
+.build-info {
+  flex-grow: 1; /* Allow info section to take remaining space */
+}
+
+.build-info h3 {
+  margin: 0 0 8px 0;
+  color: #2c3e50;
+  font-size: 1.3em;
+}
+
+.build-highlight {
+  margin: 0 0 10px 0;
+  font-size: 0.95em;
+  color: #555;
+  line-height: 1.5;
+}
+
+.build-price {
+  font-weight: bold;
+  color: #27ae60; /* Green price */
+  font-size: 1.25em;
+  display: block; /* Ensure it takes its own line if needed */
+  margin-bottom: 10px;
+}
+
+/* More Info Button */
+.btn-toggle-details {
+  /* Inherits .btn styles */
+  background-color: #3498db; /* Blue button */
+  padding: 6px 15px;
+  font-size: 0.9em;
+  margin-top: 5px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+}
+.btn-toggle-details:hover {
+  background-color: #2980b9; /* Darker blue */
+  transform: none; /* Override btn hover transform if desired */
+}
+
+/* Details Section (Initially Hidden) */
+.build-details {
+  padding: 20px;
+  background-color: #fdfdfd; /* Very light background for details */
+  display: none; /* Hidden by default */
+  animation: slideDown 0.4s ease-out; /* Animation */
+}
+
+/* Show details when the card has the 'expanded' class */
+.build-card.expanded .build-details {
+  display: block;
+}
+
+.build-details h4 {
+  margin-bottom: 15px;
+  color: #333;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}
+
+.build-details ul {
+  list-style: none; /* Remove default bullets */
+  padding: 0;
+  margin: 0;
+}
+
+.build-details li {
+  margin-bottom: 8px;
+  font-size: 0.9em;
+  color: #444;
+}
+
+.build-details li strong {
+  display: inline-block;
+  width: 100px; /* Align spec names */
+  color: #111;
+}
+
+/* Animation for sliding down */
+@keyframes slideDown {
+  from {
+      opacity: 0;
+      max-height: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      overflow: hidden;
+  }
+  to {
+      opacity: 1;
+      max-height: 500px; /* Adjust if details can be very long */
+      padding-top: 20px;
+      padding-bottom: 20px;
+      overflow: hidden;
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+  .build-card-header {
+      flex-direction: column; /* Stack image and info */
+      align-items: flex-start; /* Align items left */
+  }
+  .build-image {
+      width: 100%; /* Full width image */
+      height: 150px; /* Adjust height */
+      margin-bottom: 15px;
+  }
+  .build-info h3 {
+      font-size: 1.2em;
+  }
+  .build-price {
+      font-size: 1.15em;
+  }
+  .btn-toggle-details {
+      width: 100%; /* Full width button */
+      text-align: center;
+  }
+  .build-details li strong {
+      width: 80px; /* Adjust label width */
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "ID": "mobo-b660m",
+    "Name": "Intel B660M Micro-ATX Motherboard",
+    "Details": "Chipset: B660, Form Factor: Micro-ATX, Socket: LGA1700, Memory: DDR4 (up to 5333 MT/s OC), PCIe 4.0 Support, 2x M.2 Slots, USB 3.2 Gen 2, WiFi: Optional",
+    "Price": 119.99
+  },
+  {
+    "ID": "mobo-b550-atx",
+    "Name": "AMD B550 ATX Motherboard",
+    "Details": "Chipset: B550, Form Factor: ATX, Socket: AM4, Memory: DDR4 (up to 5100 MT/s OC), PCIe 4.0 x16 GPU Slot, 2x M.2 Slots (one PCIe 4.0), USB 3.2 Gen 2, WiFi: Optional",
+    "Price": 139.99
+  },
+  {
+    "ID": "mobo-z790-atx",
+    "Name": "Intel Z790 ATX Motherboard",
+    "Details": "Chipset: Z790, Form Factor: ATX, Socket: LGA1700, Memory: DDR5 (up to 7800 MT/s OC) or DDR4 Variant Models, PCIe 5.0 GPU and M.2 Support, 4x M.2 Slots, USB 3.2 Gen 2x2, Integrated WiFi 6E on most models",
+    "Price": 249.99
+  },
+  {
+    "ID": "mobo-x670e-atx",
+    "Name": "AMD X670E ATX Motherboard",
+    "Details": "Chipset: X670E, Form Factor: ATX, Socket: AM5, Memory: DDR5 (up to 8000 MT/s OC), PCIe 5.0 for GPU and Storage, 4x M.2 Slots, USB 4.0 Support, WiFi 6E Integrated",
+    "Price": 349.99
+  },
+  {
+    "ID": "mobo-b760m",
+    "Name": "Intel B760M Micro-ATX Motherboard",
+    "Details": "Chipset: B760, Form Factor: Micro-ATX, Socket: LGA1700, Memory: DDR5 (up to 7200 MT/s OC) or DDR4 Variant, PCIe 5.0 GPU Slot (Optional), 2x M.2 Slots, USB 3.2 Gen 2, WiFi: Optional",
+    "Price": 139.99
+  },
+  {
+    "ID": "mobo-a620m",
+    "Name": "AMD A620M Micro-ATX Motherboard",
+    "Details": "Chipset: A620, Form Factor: Micro-ATX, Socket: AM5, Memory: DDR5 (up to 6400 MT/s OC), PCIe 4.0 GPU and Storage Support, 2x M.2 Slots, Budget AM5 Option, No PCIe 5.0, WiFi: Optional",
+    "Price": 99.99
+  },
+  {
+    "ID": "mobo-x570-atx",
+    "Name": "AMD X570 ATX Motherboard",
+    "Details": "Chipset: X570, Form Factor: ATX, Socket: AM4, Memory: DDR4 (up to 5100 MT/s OC), PCIe 4.0 Full Platform Support, 2-3x M.2 Slots, USB 3.2 Gen 2, Optional WiFi 6",
+    "Price": 199.99
+  }
+]

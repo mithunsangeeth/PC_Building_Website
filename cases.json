@@ -1,0 +1,26 @@
+[
+  {
+    "ID": "case-atx-mid",
+    "Name": "Mid Tower ATX Case",
+    "Details": "ATX/Micro-ATX/ITX Support, Tempered Glass Side Panel, 3 Pre-Installed Fans, Front Mesh Design",
+    "Price": 79.99
+  },
+  {
+    "ID": "case-atx-full",
+    "Name": "Full Tower ATX Case",
+    "Details": "ATX/Extended-ATX Support, Tempered Glass, Vertical GPU Mount Option, 5 Fan Slots",
+    "Price": 139.99
+  },
+  {
+    "ID": "case-matx",
+    "Name": "Micro-ATX Compact Case",
+    "Details": "Micro-ATX/ITX Support, Compact Size, 2 Pre-Installed Fans, Basic Airflow",
+    "Price": 59.99
+  },
+  {
+    "ID": "case-itx",
+    "Name": "Mini-ITX SFF Case",
+    "Details": "Mini-ITX Support, Ultra-Compact, Supports Full GPU Length, SFX PSU Required",
+    "Price": 99.99
+  }
+]
